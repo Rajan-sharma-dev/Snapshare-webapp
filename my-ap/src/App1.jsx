@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import Data  from './Sdata';
 
 
@@ -7,11 +8,11 @@ import Data  from './Sdata';
 function Mypage(){
   return (
     <>
-    <div className='Card1'>
-    <div className='Img1'>
-    <img src={Data[0].image}></img></div>
+    <div className='card'>
     
+    <img src={Data[0].image}></img>
     
+    <div className='container'>
     <p>{Data[0].sname}</p>
 
     <h2>Location</h2>
@@ -21,6 +22,7 @@ function Mypage(){
 
     <h2>Age</h2>
     <h1>{Data[0].Age}</h1>
+    </div>
     
     
     </div>
