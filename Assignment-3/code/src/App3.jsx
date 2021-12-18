@@ -1,5 +1,5 @@
 import React from "react";
-import App2 from "./App2";
+
 
 function App3(){
     return (

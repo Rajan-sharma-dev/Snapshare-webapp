@@ -7,16 +7,17 @@ import App3 from './App3'
 import App4 from './App4'
 
 
-let object={
-  Name:"Alan Ford",EmployeeID:"00005152",Appointment:"9:00(24-05-2016)",Email:"alan.form@email.nl",phone:"1234567890"
-}
+
 
 function App() {
+  const object={
+    Name:"Alan Ford",EmployeeID:"00005152",Appointment:"9:00(24-05-2016)",Email:"alan.form@email.nl",phone:"+31123456789"
+  }
   return (
     <div className="site-container">
     
-    <App1 Name={object.Name} id={object.EmployeeId}/>
-    <App2 appointmnet={object.Appointment } email={object.Email} phone={object.phone} />
+    <App1 Name={object.Name} EmployeeID ={object.EmployeeID}/>
+    <App2 Appointment={object.Appointment} Email={object.Email} Phone={object.phone} />
     <App3 />
     <App4 />
 

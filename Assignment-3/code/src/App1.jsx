@@ -1,5 +1,5 @@
-import react from "react";
 
+import React from "react"
 function App1(tt){
   
     
@@ -7,7 +7,7 @@ function App1(tt){
         <div id="back">&#10094;</div>
         <div>
         <h1 className="h1"> {tt.Name}</h1>
-        <h2 className="h2">{tt.id}</h2>
+        <h2 className="h2">{tt.EmployeeID}</h2>
         </div>
         <div>
         <button id="btn">Print</button>

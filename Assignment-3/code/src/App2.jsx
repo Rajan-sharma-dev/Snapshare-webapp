@@ -5,10 +5,10 @@ import React from "react";
 function App2(tt){
     return(
         <div className="customer-info">
-        <h2>Appoinment On<span>{tt.appointmnet}</span></h2>
+        <h2>Appointment On<span>{tt.Appointment}</span></h2>
         
-        <h2>Email: <span>{tt.email}</span></h2>
-        <h2>Phone <span>{tt.phone}</span></h2>
+        <h2>Email:<span>{tt.Email}</span></h2>
+        <h2>Phone<span>{tt.Phone}</span></h2>
 
 
 
