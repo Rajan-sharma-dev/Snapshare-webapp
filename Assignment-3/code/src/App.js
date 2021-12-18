@@ -8,15 +8,15 @@ import App4 from './App4'
 
 
 let object={
-  Name:"Alan Ford",EmployeeId:"00005152",Appointment:"9:00(24-05-2016)",email:"alan.form@email.nl",phone:"1234567890"
+  Name:"Alan Ford",EmployeeID:"00005152",Appointment:"9:00(24-05-2016)",Email:"alan.form@email.nl",phone:"1234567890"
 }
 
 function App() {
   return (
     <div className="site-container">
     
-    <App1 name={object.Name} id={object.EmployeeId}/>
-    <App2 appointmnet={object.Appointment} email={object.email} phone={object.phone} />
+    <App1 Name={object.Name} id={object.EmployeeId}/>
+    <App2 appointmnet={object.Appointment } email={object.Email} phone={object.phone} />
     <App3 />
     <App4 />
 
