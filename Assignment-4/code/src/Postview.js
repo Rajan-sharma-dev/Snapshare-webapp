@@ -30,7 +30,7 @@ const Usestate1 = () => {
       <div className="container">
         <div className="nav">
           <div className="logo"><i className="fab fa-instagram-square"></i><span>InstaClone</span></div>
-          <div className="camera"><i class="fab fa-affiliatetheme"></i></div>
+          <div className="camera"><i class="fas fa-camera"></i></div>
         </div>
 
         {
@@ -51,7 +51,7 @@ const Usestate1 = () => {
                   </div>
                   <div id="actions">
                     <div className="like-comment">
-                      <div className="like"><i class="far fa-heart"></i></div>
+                      <div className="like"><i class="far fa-heart" ></i></div>
                       <div className="like"><i class="far fa-comment-dots"></i></div>
                     </div>
                     <div className="date">{curElem.Date}</div>
